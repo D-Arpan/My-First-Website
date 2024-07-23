@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: rgb(255, 247, 235);
+}
+
+
+
+#about,
+#projects,
+#note,
+#contact {
+    padding-top: 12vh;
+    overflow: hidden;
+}

@@ -1,0 +1,100 @@
+#home {
+    height: 100vh;
+    width: 100%;
+    padding-top: 12vh;
+    background-image: url(Assests/BG.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.home-leftcontainer {
+    height: 88vh;
+    width: 50%;
+}
+
+.home-rightcontainer {
+    height: 88vh;
+    width: 50%;
+    text-align: right;
+    padding: 10px 2%;
+}
+
+.textbox {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 88vh;
+    width: 100%;
+    text-align: right;
+}
+
+.text {
+    width: 80%;
+}
+
+.intro {
+    font-size: 3rem;
+}
+
+.intro span {
+    color: yellow;
+}
+
+
+.arpan {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.arpan:hover {
+    transform: scale(1.03);
+}
+
+.title {
+    font-size: 4rem;
+    color: rgb(214, 214, 70);
+}
+
+.title {
+    display: inline-block;
+    transition: 0.4s ease;
+}
+
+.title:hover {
+    transform: scale(1.03);
+}
+
+.details {
+    font-size: 1.5rem;
+}
+
+.icons {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+}
+
+
+.icons .fa-brands,
+.icons .fa-solid {
+    color: rgb(255, 253, 158);
+    font-size: 2.4rem;
+}
+
+.fa-brands {
+    transition: 0.4s ease;
+}
+
+.fa-brands:hover {
+    transform: scale(1.3);
+}
+
+.fa-solid {
+    transition: 0.4s ease;
+}
+
+.fa-solid:hover {
+    transform: scale(1.3);
+}

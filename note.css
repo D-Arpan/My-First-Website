@@ -1,0 +1,29 @@
+#note {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 9% 25%;
+}
+
+.dear-reader {
+    color: rgb(214, 214, 70);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.para1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.para2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.para3 {
+    font-size: 2rem;
+    font-weight: 500;
+}

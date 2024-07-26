@@ -9,39 +9,19 @@
     }
 
 
-    .burger {
-        width: 100%;
-        display: block;
-        color: yellow;
-        align-items: right;
-        justify-content: right;
-        text-align: right;
-        padding: 2%;
-    }
-
-    .burger i {
-        font-size: 1.5rem;
-        align-items: right;
-        justify-content: right;
-        text-align: right;
-    }
 
     header {
         display: none;
-        height: 0vh;
     }
 
-    .navlist {
+
+
+    .navigation {
+
+
         display: none;
     }
 
-    .navbar {
-        height: 0vh;
-    }
-
-    .navigation {
-        height: 0vh;
-    }
 
 
     #home {

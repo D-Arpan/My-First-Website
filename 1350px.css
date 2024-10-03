@@ -1,0 +1,579 @@
+@media screen and (min-width: 1025px) and (max-width: 1350px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body {
+        background-color: black;
+        color: rgb(255, 247, 235);
+    }
+
+
+
+    #about,
+    #projects,
+    #note,
+    #contact {
+        padding-top: 12vh;
+        overflow: hidden;
+    }
+
+
+    header {
+        background-color: transparent;
+        position: fixed;
+        height: 12vh;
+        width: 100%;
+        z-index: 1000;
+        transition: background-color 0.8s ease-in-out;
+    }
+
+    header .navigation {
+        transition: color 0.3s ease-in-out;
+    }
+
+    header.scrolled {
+        background-color: black;
+        opacity: 1;
+    }
+
+    header.scrolled.navigation {
+        color: black;
+    }
+
+    nav {
+        position: fixed;
+        height: 12vh;
+        width: 100%;
+        z-index: 1000;
+    }
+
+
+    .navigation {
+        height: 12vh;
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 5%
+    }
+
+    .navlist {
+        align-items: center;
+    }
+
+    nav ul {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 3.2rem;
+    }
+
+    nav ul li {
+        list-style: none;
+    }
+
+    nav ul li a {
+        font-size: 1.7rem;
+        text-decoration: none;
+        color: yellow;
+        font-weight: 700;
+        position: relative;
+    }
+
+    nav ul li a::after {
+        content: '';
+        width: 0%;
+        height: 3px;
+        background: rgb(255, 255, 255);
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.7s;
+    }
+
+    nav ul li a:hover::after {
+        width: 100%;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    #home {
+        height: 100vh;
+        width: 100%;
+        padding-top: 12vh;
+        background-image: url(Assests/BG.jpg);
+        background-size: cover;
+        display: flex;
+    }
+
+    .home-leftcontainer {
+        height: 88vh;
+        width: 50%;
+    }
+
+    .home-rightcontainer {
+        height: 88vh;
+        width: 50%;
+        text-align: right;
+        padding: 10px 2%;
+    }
+
+    .textbox {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        height: 88vh;
+        width: 100%;
+        text-align: right;
+    }
+
+    .text {
+        width: 80%;
+    }
+
+    .intro {
+        font-size: 2.5rem;
+    }
+
+    .intro span {
+        color: yellow;
+    }
+
+
+    .arpan {
+        display: inline-block;
+        transition: 0.3s;
+    }
+
+    .arpan:hover {
+        transform: scale(1.03);
+    }
+
+    .title {
+        font-size: 3rem;
+        color: rgb(214, 214, 70);
+    }
+
+    .title {
+        display: inline-block;
+        transition: 0.4s ease;
+    }
+
+    .title:hover {
+        transform: scale(1.03);
+    }
+
+    .details {
+        font-size: 1.2rem;
+    }
+
+    .icons {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        text-align: center;
+    }
+
+
+    .icons .fa-brands,
+    .icons .fa-solid {
+        color: rgb(255, 253, 158);
+        font-size: 2rem;
+    }
+
+    .fa-brands {
+        transition: 0.4s ease;
+    }
+
+    .fa-brands:hover {
+        transform: scale(1.3);
+    }
+
+    .fa-solid {
+        transition: 0.4s ease;
+    }
+
+    .fa-solid:hover {
+        transform: scale(1.3);
+    }
+
+    #about {
+        height: auto;
+        width: 100%;
+        padding-top: 12vh;
+        display: flex;
+    }
+
+    .about-leftcontainer,
+    .about-rightcontainer {
+        height: auto;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex: 1;
+    }
+
+
+    .circle {
+        width: 500px;
+        height: 500px;
+        background-color: rgb(214, 214, 70);
+        ;
+        border-radius: 50%;
+        align-items: center;
+        position: absolute;
+    }
+
+    .bgcircle {
+        width: 450px;
+        height: 450px;
+        background-color: rgb(46, 46, 46);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
+
+    .bgcircle img {
+        display: block;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+
+
+    .about-leftcontainer {
+        height: auto;
+        width: 50%;
+        text-align: right;
+        padding-left: 7.5%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+
+    .abouttextbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .abouttext {
+        width: 100%;
+    }
+
+
+    .abouttitle {
+        font-size: 3.5rem;
+        color: rgb(214, 214, 70);
+    }
+
+    .abouttitle {
+        display: inline-block;
+    }
+
+
+
+    .subhead {
+        font-size: 2.1rem;
+        color: rgb(214, 214, 70);
+        display: inline-block;
+    }
+
+
+
+    .aboutul {
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .list {
+        font-size: 1.1rem;
+        color: rgb(214, 214, 70);
+    }
+
+    .aboutintro,
+    .aboutoutro {
+        font-size: 1.2rem;
+    }
+
+
+    .aboutul li a {
+        text-decoration: none;
+        color: cyan;
+        display: inline-block;
+    }
+
+
+    #projects {
+        height: auto;
+        width: 100%;
+        padding-top: 12vh;
+    }
+
+
+    .projects-topcontainer {
+        height: 15vh;
+        justify-content: center;
+    }
+
+    .projectstitle {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .myprojects {
+        font-size: 4rem;
+        color: rgb(214, 214, 70);
+        text-align: center;
+        justify-content: center;
+    }
+
+    .myprojects {
+        display: inline-block;
+        transition: 0.4s ease;
+    }
+
+    .myprojects:hover {
+        transform: scale(1.03);
+    }
+
+
+    .projects-midcontainer {
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        padding: 2rem, 2rem;
+        justify-content: space-evenly;
+        width: 100%;
+
+    }
+
+    .projects-midcontainer img {
+        max-width: 25%;
+        height: auto;
+        margin: 1rem;
+        box-shadow: 0 4px 8px yellow;
+        transition: transform 0.2s;
+    }
+
+    .projects-midcontainer img:hover {
+        transform: scale(1.1);
+    }
+
+    .projects-bottomcontainer {
+        width: 100%;
+        height: 25vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+
+    .projects-bottomcontainer,
+    .projectsul {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 15rem;
+    }
+
+
+    .projectsul li {
+        list-style: none;
+    }
+
+    .projectsul li a {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .projectsul li a h1 {
+        font-weight: 700;
+        list-style: none;
+        text-decoration: none;
+        color: cyan;
+        transition: transform 0.2s;
+    }
+
+
+
+    .projectsul li a h1:hover {
+        transform: scale(1.3);
+    }
+
+
+    #note {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        padding: 10% 10%;
+    }
+
+    .dear-reader {
+        color: rgb(214, 214, 70);
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+
+    .para1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .para2 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .para3 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+
+    #contact {
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .contact-leftcontainer,
+    .contact-rightcontainer {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        padding: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-leftcontainer img {
+        max-width: 100%;
+        transition: transform 0.4s;
+    }
+
+    .contact-leftcontainer img:hover {
+        transform: scale(1.02);
+    }
+
+    .contact-rightcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contact-rightcontainer h1 {
+        color: cyan;
+        font-size: 3.2rem;
+        font-weight: 900;
+    }
+
+    .contactform {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-inputs {
+        width: 400px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        color: black;
+        border-radius: 25px;
+    }
+
+
+    .contactform textarea {
+        height: 140px;
+        padding-top: 20px;
+    }
+
+    .contactform button {
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        font-size: 16px;
+        color: Black;
+        gap: 10px;
+        border: none;
+        border-radius: 50px;
+        background-color: cyan;
+        font-weight: 700;
+        width: 33%;
+        transition: transform 0.4s;
+    }
+
+    .contactform button:hover {
+        transform: scale(1.04);
+    }
+
+
+    .contactme {
+        background-color: rgb(51, 50, 36);
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacticons {
+        width: 20%;
+        display: flex;
+        gap: 8rem;
+        text-align: center;
+    }
+
+
+    .contacticons .fa-brands,
+    .contacticons .fa-solid {
+        color: rgb(255, 253, 158);
+        font-size: 3rem;
+    }
+
+    .fa-brands {
+        transition: 0.4s ease;
+    }
+
+    .fa-brands:hover {
+        transform: scale(1.3);
+    }
+
+    .fa-solid {
+        transition: 0.4s ease;
+    }
+
+    .fa-solid:hover {
+        transform: scale(1.3);
+    }
+
+
+
+}

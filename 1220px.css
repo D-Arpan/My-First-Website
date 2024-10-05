@@ -1,4 +1,4 @@
-@media screen and (min-width: 1220px) and (max-width: 1349px) {
+@media screen and (min-width: 1220px) and (max-width: 1380px) {
 
     html {
         scroll-behavior: smooth;
@@ -75,7 +75,7 @@
         text-align: center;
         display: flex;
         justify-content: center;
-        gap: 3.2rem;
+        gap: 2.5rem;
     }
 
     nav ul li {
@@ -83,7 +83,7 @@
     }
 
     nav ul li a {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         text-decoration: none;
         color: yellow;
         font-weight: 700;
@@ -144,7 +144,7 @@
     }
 
     .intro {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .intro span {
@@ -162,7 +162,7 @@
     }
 
     .title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: rgb(214, 214, 70);
     }
 
@@ -176,7 +176,7 @@
     }
 
     .details {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .icons {
@@ -191,7 +191,7 @@
     .icons .fa-brands,
     .icons .fa-solid {
         color: rgb(255, 253, 158);
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .fa-brands {
@@ -211,22 +211,30 @@
     }
 
     #about {
-        height: auto;
+        height: 270vh;
         width: 100%;
-        padding-top: 12vh;
         display: flex;
+        flex-direction: column;
+        padding-top: 10%;
     }
 
-    .about-leftcontainer,
-    .about-rightcontainer {
-        height: auto;
-        width: 50%;
+    .about-leftcontainer {
+        height: 100vh;
+        width: 100%;
         align-items: center;
         justify-content: center;
         display: flex;
         flex: 1;
     }
 
+    .about-rightcontainer {
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex: 1;
+    }
 
     .circle {
         width: 500px;
@@ -239,8 +247,8 @@
     }
 
     .bgcircle {
-        width: 450px;
-        height: 450px;
+        width: 470px;
+        height: 470px;
         background-color: rgb(46, 46, 46);
         border-radius: 50%;
         position: absolute;
@@ -260,11 +268,11 @@
 
     .about-leftcontainer {
         height: auto;
-        width: 50%;
+        width: 100%;
         text-align: right;
-        padding-left: 7.5%;
-        padding-top: 1%;
-        padding-bottom: 2%;
+        padding-left: 0%;
+        padding-top: 0%;
+        padding-bottom: 0%;
     }
 
     .abouttextbox {
@@ -272,7 +280,7 @@
         align-items: center;
         justify-content: center;
         height: auto;
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
 
@@ -282,7 +290,7 @@
 
 
     .abouttitle {
-        font-size: 3.5rem;
+        font-size: 2.4rem;
         color: rgb(214, 214, 70);
     }
 
@@ -293,7 +301,7 @@
 
 
     .subhead {
-        font-size: 2.1rem;
+        font-size: 1.6rem;
         color: rgb(214, 214, 70);
         display: inline-block;
     }
@@ -343,7 +351,7 @@
 
 
     .myprojects {
-        font-size: 4rem;
+        font-size: 2.5rem;
         color: rgb(214, 214, 70);
         text-align: center;
         justify-content: center;
@@ -395,7 +403,7 @@
         text-align: center;
         display: flex;
         justify-content: space-evenly;
-        gap: 15rem;
+        gap: 12rem;
     }
 
 
@@ -409,7 +417,7 @@
     }
 
     .projectsul li a h1 {
-        font-weight: 700;
+        font-weight: 600;
         list-style: none;
         text-decoration: none;
         color: cyan;
@@ -434,22 +442,22 @@
 
     .dear-reader {
         color: rgb(214, 214, 70);
-        font-size: 3.2rem;
+        font-size: 2.5rem;
         font-weight: 700;
     }
 
     .para1 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         font-weight: 500;
     }
 
     .para2 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         font-weight: 500;
     }
 
     .para3 {
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         font-weight: 500;
     }
 
@@ -488,7 +496,7 @@
 
     .contact-rightcontainer h1 {
         color: cyan;
-        font-size: 3.2rem;
+        font-size: 2.5rem;
         font-weight: 900;
     }
 
@@ -555,7 +563,7 @@
     .contacticons .fa-brands,
     .contacticons .fa-solid {
         color: rgb(255, 253, 158);
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .fa-brands {

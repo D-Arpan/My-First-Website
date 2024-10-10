@@ -69,6 +69,6 @@ header {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 0, 0.733);
+    background: yellow;
     border-radius: 500px;
 }
